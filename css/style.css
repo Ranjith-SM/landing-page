@@ -1,45 +1,63 @@
-body{
-    font-family: Montserrat, sans-serif;
+body {
+  font-family: Montserrat, sans-serif;
 }
-
 
 .one {
   background: url("/images/da-img-1.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
-  
+}
+
+.logo {
+  padding-top: 60px;
 }
 
 header {
   display: flex;
   color: white;
   align-items: center;
-  
+  margin-left: 100px;
 }
 .nav{
- text-decoration: none;
-
+  float: right;
+  padding-top: -40x;
+}
+a.navbar {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-weight: 500;
+}
+a.navbar-brand:hover,
+a.navbar-brand:active {
+  color: #fff !important;
 }
 
+.navbar {
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 1.5px;
+  font-size: 0.95rem;
+  line-height: 3;
+  font-weight: 500;
+}
+.navbar:hover,
+.navbar:active {
+  color: #fff;
+}
+
+section {
+  margin-left: 100px;
+}
 section p {
   color: white;
   font-size: 50px;
-  margin-left: 100px;
+  
 }
 
 section h3 {
   color: white;
-  margin-left: 100px;
+  
 }
 
-button {
-  background-color: transparent;
-  border-radius: 5px;
-  margin-left: 150px;
-  color: white;
-  border-color: white;
-  height: 40px;
-}
+
 
 button :hover {
   background-color: white;
@@ -70,17 +88,17 @@ button :hover {
 
 .three {
   text-align: center;
-  height:100vh;
+  height: 100vh;
   padding-top: 100px;
   background-color: #e9ecef;
 }
 
-.service-cards{
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 40px;
+.service-cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
 }
 
 .three .card {
@@ -93,11 +111,11 @@ button :hover {
 }
 
 .three .card p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .three .card img {
-    width: 200px;
+  width: 200px;
 }
 
 .three .card:hover {
@@ -108,9 +126,8 @@ button :hover {
   padding: 2px 16px;
 }
 
-.four{
-    display: flex;
-
+.four {
+  display: flex;
 }
 
 .four-cards {
@@ -119,8 +136,8 @@ button :hover {
 }
 
 .four .hand img {
-    width: 670px;
-    height: 460px;
+  width: 670px;
+  height: 460px;
 }
 
 .box {
@@ -146,31 +163,30 @@ button :hover {
   text-transform: uppercase;
 }
 
-  .five{
-    display: flex;
-  }
+.five {
+  display: flex;
+}
 
-  .five-cards {
-    padding-left: -150px;
-  }
+.five-cards {
+  padding-left: -150px;
+}
 
-  .five .drop img {
-    width: 680px;
-    height: 460px;
-    justify-content: flex-end;
-  }
+.five .drop img {
+  width: 680px;
+  height: 460px;
+  justify-content: flex-end;
+}
 
 .six {
   display: flex;
-  
 }
 
-.six .person img{
+.six .person img {
   width: 670px;
   height: 460px;
 }
 
-.progress-bar{
+.progress-bar {
   padding-left: 50px;
   padding-top: 50px;
   width: 50%;
@@ -179,21 +195,20 @@ button :hover {
   background-color: #3d3f4c;
   height: 200px;
   color: white;
-  
 }
 
 .seven .items {
   display: flex;
   justify-content: space-evenly;
-  padding-top:50px;
+  padding-top: 50px;
 }
 
 .seven.items img {
   width: 60px;
   height: 50px;
-} 
+}
 
-.footer{
+.footer {
   margin-top: -15px;
   background-color: black;
   color: whitesmoke;
