@@ -7,6 +7,10 @@ body {
   background-size: cover;
   height: 100vh;
 }
+.disp{
+  display: flex;
+  justify-content: space-between;
+}
 
 .logo {
   padding-top: 60px;
@@ -20,27 +24,22 @@ header {
 }
 .nav{
   float: right;
-  padding-top: -40x;
+  padding-top: 70px;
+  padding-right: 100px;
+  word-spacing: 50px;
+  text-decoration: none;
+  
 }
 a.navbar {
   color: rgba(255, 255, 255, 0.85) !important;
   font-weight: 500;
-}
-a.navbar-brand:hover,
-a.navbar-brand:active {
-  color: #fff !important;
 }
 
 .navbar {
   color: rgba(255, 255, 255, 0.85);
   letter-spacing: 1.5px;
   font-size: 0.95rem;
-  line-height: 3;
   font-weight: 500;
-}
-.navbar:hover,
-.navbar:active {
-  color: #fff;
 }
 
 section {
