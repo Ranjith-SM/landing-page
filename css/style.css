@@ -3,7 +3,8 @@ body {
 }
 
 .one {
-  background: url("/images/comp.jpg") no-repeat center center;
+  /* background: url("/images/comp.jpg") no-repeat center center; */
+  background-color: darkslategray;
   background-size: cover;
   height: 100vh;
 }
