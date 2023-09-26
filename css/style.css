@@ -3,7 +3,7 @@ body {
 }
 
 .one {
-  background: url("/images/da-img-1.jpg") no-repeat center center;
+  background: url("/images/comp.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
